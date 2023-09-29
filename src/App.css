@@ -122,7 +122,7 @@ main {
 
 /* WELCOME PAGE */
 .welcomePage {
-  background-color: var(--red-color);
+  background-color: linear-gradient(180deg, var(--red-color) 0%, var(--red-color) 50%, var(--black-color) 100%);
   background-image: url(images/wolverine.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -192,6 +192,7 @@ footer {
 }
 
 .footer-container {
+  margin: 60px auto 40px auto;
   padding: 20px 0;
   padding: 20px 0;
   flex: 0 1 80%;
@@ -200,12 +201,14 @@ footer {
 .footer-container p {
   color: var(--white-color);
   line-height: 19px;
-  margin: 10px 0;
+  margin: 10px auto;
   padding: 0;
   font-size: 12px;
   font-weight: normal;
 }
-
+.footerTitle {
+  font-size: 2em;
+}
 /* ERROR PAGE */
 .quiz-bg {
   margin: 0;
@@ -377,7 +380,7 @@ button[disabled]:hover {
 }
 
 .simpleLink:hover {
-  color: var(--red-color);
+  color: var(--light-green-color);
 }
 /* END SIGNUP - LOGIN - FORGETPASSWORD */
 
@@ -744,6 +747,11 @@ input:checked+.slider:before {
 .comicImage img {
   width: 100%;
   height: auto;
+}
+
+p {
+  text-align: center;
+  width: 15vw;
 }
 
 .comicImage p {
