@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer>
         <div className='footer-container'>
-            <h1>Made with ❤️</h1>
-            <p>Les icônes sont prises sur le site iconFinder</p>
+            <h1 className='footerTitle'>Made with ❤️</h1>
+            <p>Les icônes proviennent du site iconFinder</p>
         </div>
     </footer>
   )
